@@ -2,7 +2,7 @@
 title: "Creating Static JSON API"
 description: "How to create a static JSON API"
 pubDate: "Feb 1 2026"
-categories: ["Web Development"]
+categories: ["Backend"]
 ---
 
 #### Creating API Route

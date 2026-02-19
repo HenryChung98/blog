@@ -2,7 +2,7 @@
 title: "Deploy to Github Pages (Astro)"
 description: "How to deploy a static site to Github Pages"
 pubDate: "Jan 30 2026"
-categories: ["Git / Github", "Web Development"]
+categories: ["Git / Github", "DevOps"]
 ---
 
 #### 1. Create .yml file
