@@ -2,7 +2,7 @@
 title: "Docker in Oracle VM: Gotenberg Setup"
 description: "Installing Docker in Oracle VM and using Gotenberg for document conversion and PDF generation"
 pubDate: "Feb 1 2026"
-categories: ["Docker", "DevOps"]
+categories: ["DevOps"]
 ---
 
 #### Local testing

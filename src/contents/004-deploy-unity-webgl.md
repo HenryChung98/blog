@@ -2,7 +2,7 @@
 title: "Deploy Unity WebGL Project"
 description: "How to publish Unity WebGL builds to play.unity.com and itch.io"
 pubDate: "Jan 31 2026"
-categories: ["Unity"]
+categories: ["Etc"]
 ---
 
 #### 1. Setup Unity WebGL Publisher

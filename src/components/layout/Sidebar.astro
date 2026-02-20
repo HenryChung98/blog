@@ -3,7 +3,20 @@ import { BLOG_INFO } from '../../consts';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog');
-const categories = [...new Set(allPosts.flatMap(post => post.data.categories || []))];
+
+const specialCategories = ['projects', 'etc'];
+const specialIndex = Object.fromEntries(specialCategories.map((c, i) => [c, i]));
+
+const categories = [...new Set(allPosts.flatMap(post => post.data.categories || []))]
+  .sort((a, b) => {
+    const ai = specialIndex[a.toLowerCase()] ?? -1;
+    const bi = specialIndex[b.toLowerCase()] ?? -1;
+
+    if (ai === -1 && bi === -1) return a.localeCompare(b);
+    if (ai === -1) return -1;
+    if (bi === -1) return 1;
+    return ai - bi;
+  });
 ---
 
 <aside class="sidebar">

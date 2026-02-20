@@ -2,7 +2,7 @@
 title: "Git Commands Reference"
 description: "Comprehensive Git command cheat sheet and workflow guide"
 pubDate: "Jan 31 2026"
-categories: ["Git / Github"]
+categories: ["Etc"]
 ---
 
 #### Daily Commands
