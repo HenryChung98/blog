@@ -8,7 +8,7 @@ categories: ["Frontend"]
 #### Setup
 
 ```bash title="installation"
-npm install next-intl
+pnpm install next-intl
 ```
 
 ```bash title="Project-Structure"
