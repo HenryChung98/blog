@@ -118,10 +118,11 @@ a {
   color: var(--foreground);
   text-decoration: none;
 }
+
 a:hover {
   color: var(--muted-foreground);
-  transition: color 0.2s;
 }
+
 p {
   margin-bottom: 1em;
 }
@@ -130,9 +131,11 @@ textarea {
   width: 100%;
   font-size: 16px;
 }
+
 input {
   font-size: 16px;
 }
+
 table {
   width: 100%;
   border-collapse: separate;

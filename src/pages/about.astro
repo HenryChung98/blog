@@ -8,7 +8,7 @@ import { BLOG_INFO } from '../consts';
 	<div class="about-container">
 
 		<p>
-			I&apos;m a Software Engineer sharing notes and ideas from building real-world software and applications. 
+			I&apos;m a <strong>Software Engineer</strong> sharing notes and ideas from building real-world software and applications. 
 			Some posts may contain outdated or incorrect information, so please keep that in mind. 
 			Feel free to reach out anytime, whether you notice something off or just want to share your thoughts.
 		</p>
@@ -85,9 +85,13 @@ import { BLOG_INFO } from '../consts';
 		font-size: 0.95rem;
 	}
 
-	a:hover {
+	li:has(a):hover {
 		color: var(--primary);
 	}
+	li:has(a):hover a {
+		color: var(--primary);
+	}
+	
 	.contact-card {
 		border-left: 3px solid var(--border);
 		background-color: var(--card);
